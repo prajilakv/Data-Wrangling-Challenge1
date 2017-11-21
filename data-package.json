@@ -1,0 +1,82 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov 21 12:14:33 2017
+
+@author: prajila
+"""
+        
+{
+  "name": "gas_price-dataset",
+  "title": "Henry Hub gas prices",
+  "resources": [
+    {
+      "name": "weekly-data",
+      "path": "gas_price_weekly.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "Date"
+          },
+          {
+            "name": "price",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "monthly-data",
+      "path": "gas_price_monthly.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "Date"
+          },
+          {
+            "name": "price",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "daily-data",
+      "path": "gas_price_daily.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "Date"
+          },
+          {
+            "name": "price",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "annual-data",
+      "path": "gas_price_annual.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "Date"
+          },
+          {
+            "name": "price",
+            "type": "string"
+          }
+        ]
+      }
+    },
+        
+  ]
+}
